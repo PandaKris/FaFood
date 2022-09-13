@@ -15,7 +15,8 @@ class ContentViewModel : ObservableObject {
         Restaurant(name: "Carl's Jr", image: "CJLogo"),
         Restaurant(name: "KFC", image: "KFCLogo"),
         Restaurant(name: "McDonalds", image: "MCDLogo"),
-        Restaurant(name: "Sushi Tei", image: "SushiTeiLogo")
+        Restaurant(name: "Sushi Tei", image: "SushiTeiLogo"),
+        Restaurant(name: "Burger Bangor", image: "BKHamburger")
     ] {
         didSet {
             updateWeightValue()
